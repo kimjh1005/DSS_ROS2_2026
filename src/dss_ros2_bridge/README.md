@@ -88,7 +88,7 @@ HTTPS 방식으로 저장소를 클론합니다 (SSH 공개키 필요 없음):
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/kimjh1005/DSS_ROS2_2026.git
+git clone https://github.com/kimbyoungkyu/dss_ros2_bridge.git
 ```
 
 ---
