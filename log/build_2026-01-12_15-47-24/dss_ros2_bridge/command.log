@@ -1,0 +1,6 @@
+Invoking command in '/home/tukorea/ros2_ws/build/dss_ros2_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tukorea/ros2_ws/src/dss_ros2_bridge/dss_ros2_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tukorea/ros2_ws/install/dss_ros2_bridge
+Invoked command in '/home/tukorea/ros2_ws/build/dss_ros2_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tukorea/ros2_ws/src/dss_ros2_bridge/dss_ros2_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tukorea/ros2_ws/install/dss_ros2_bridge
+Invoking command in '/home/tukorea/ros2_ws/build/dss_ros2_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tukorea/ros2_ws/build/dss_ros2_bridge -- -j20 -l20
+Invoked command in '/home/tukorea/ros2_ws/build/dss_ros2_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tukorea/ros2_ws/build/dss_ros2_bridge -- -j20 -l20
+Invoking command in '/home/tukorea/ros2_ws/build/dss_ros2_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tukorea/ros2_ws/build/dss_ros2_bridge
+Invoked command in '/home/tukorea/ros2_ws/build/dss_ros2_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tukorea/ros2_ws/build/dss_ros2_bridge
