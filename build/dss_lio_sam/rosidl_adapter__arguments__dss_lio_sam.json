@@ -1,7 +1,0 @@
-{
-  "package_name": "dss_lio_sam",
-  "non_idl_tuples": [
-    "/home/tukorea/ros2_ws/src/SLAM/LIO-SAM/dss_lio_sam:msg/CloudInfo.msg",
-    "/home/tukorea/ros2_ws/src/SLAM/LIO-SAM/dss_lio_sam:srv/SaveMap.srv"
-  ]
-}
