@@ -517,10 +517,10 @@ class SlamLaunchManagerUI(QtWidgets.QMainWindow):
     def auto_detect_launch_files(self):
         """Auto-detect launch files in the workspace"""
         home = Path.home()
+        dss_workspace = home / 'ros2_ws' / 'src'
 
         # Look for DSS ROS2 Bridge launch file
-        dss_workspace = home / 'ros2_ws' / 'src'
-        dss_launch = dss_workspace / 'dss_ros2_bridge' / 'launch' / 'launch.py'
+        dss_launch = dss_workspace / 'dss_ros2_bridge' / 'dss_ros2_bridge' / 'launch' / 'launch.py'
         if dss_launch.exists():
             self.node.launch_files['dss'] = str(dss_launch)
             self.log(f"Found DSS Bridge launch: {dss_launch}")
