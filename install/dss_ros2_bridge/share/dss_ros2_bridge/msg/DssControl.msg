@@ -1,1 +1,3 @@
-/home/tukorea/ros2_ws/src/dss_ros2_bridge/dss_ros2_bridge/msg/DssControl.msg
+float32 steer
+float32 throttle
+float32 brake

@@ -1,0 +1,32 @@
+[0.926s] Invoking command in '/home/amap/ros2_ws/src/Tools/slam_launch_manager': PYTHONPATH=/home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/slam_launch_manager build --build-base /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build install --record /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log --single-version-externally-managed install_data
+[1.153s] running egg_info
+[1.154s] writing build/slam_launch_manager/slam_launch_manager.egg-info/PKG-INFO
+[1.155s] writing dependency_links to build/slam_launch_manager/slam_launch_manager.egg-info/dependency_links.txt
+[1.155s] writing entry points to build/slam_launch_manager/slam_launch_manager.egg-info/entry_points.txt
+[1.155s] writing requirements to build/slam_launch_manager/slam_launch_manager.egg-info/requires.txt
+[1.155s] writing top-level names to build/slam_launch_manager/slam_launch_manager.egg-info/top_level.txt
+[1.158s] reading manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+[1.158s] writing manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+[1.159s] running build
+[1.159s] running build_py
+[1.159s] copying slam_launch_manager/__init__.py -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+[1.159s] copying slam_launch_manager/slam_launch_manager_node.py -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+[1.159s] copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+[1.160s] running install
+[1.160s] running install_lib
+[1.161s] copying /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/__init__.py -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+[1.161s] copying /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/ui
+[1.161s] copying /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/slam_launch_manager_node.py -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+[1.162s] byte-compiling /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/__init__.py to __init__.cpython-310.pyc
+[1.162s] byte-compiling /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/slam_launch_manager_node.py to slam_launch_manager_node.cpython-310.pyc
+[1.186s] running install_data
+[1.186s] copying resource/slam_launch_manager -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index/resource_index/packages
+[1.186s] copying package.xml -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager
+[1.186s] copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager/ui
+[1.187s] running install_egg_info
+[1.187s] removing '/home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager-0.0.0-py3.10.egg-info' (and everything under it)
+[1.187s] Copying build/slam_launch_manager/slam_launch_manager.egg-info to /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager-0.0.0-py3.10.egg-info
+[1.198s] running install_scripts
+[1.220s] Installing slam_launch_manager script to /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/slam_launch_manager
+[1.220s] writing list of installed files to '/home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log'
+[1.275s] Invoked command in '/home/amap/ros2_ws/src/Tools/slam_launch_manager' returned '0': PYTHONPATH=/home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/slam_launch_manager build --build-base /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build install --record /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log --single-version-externally-managed install_data

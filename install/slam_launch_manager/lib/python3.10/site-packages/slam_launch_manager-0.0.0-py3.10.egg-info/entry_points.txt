@@ -1,0 +1,3 @@
+[console_scripts]
+slam_launch_manager = slam_launch_manager.slam_launch_manager_node:main
+

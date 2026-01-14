@@ -1,0 +1,567 @@
+[0.000000] (-) TimerEvent: {}
+[0.000830] (-) JobUnselected: {'identifier': 'bag_replay_tool_ros2'}
+[0.000942] (-) JobUnselected: {'identifier': 'dss_lio_sam'}
+[0.001209] (-) JobUnselected: {'identifier': 'dss_ros2_bridge'}
+[0.001242] (-) JobUnselected: {'identifier': 'lio_sam'}
+[0.001262] (-) JobUnselected: {'identifier': 'slam_launch_manager'}
+[0.001271] (livox_lio_sam) JobQueued: {'identifier': 'livox_lio_sam', 'dependencies': OrderedDict()}
+[0.001281] (livox_lio_sam) JobStarted: {'identifier': 'livox_lio_sam'}
+[0.005921] (livox_lio_sam) JobProgress: {'identifier': 'livox_lio_sam', 'progress': 'cmake'}
+[0.007811] (livox_lio_sam) JobProgress: {'identifier': 'livox_lio_sam', 'progress': 'build'}
+[0.008309] (livox_lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tukorea/ros2_ws/build/livox_lio_sam', '--', '-j20', '-l20'], 'cwd': '/home/tukorea/ros2_ws/build/livox_lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tukorea/ros2_ws/install/lio_sam/lib:/home/tukorea/ros2_ws/install/dss_lio_sam/lib:/home/tukorea/ros2_ws/install/dss_ros2_bridge/lib:/home/tukorea/ros2_ws/install/gtsam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tukorea'), ('OLDPWD', '/home/tukorea/gtsam-4.1.1/build'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tukorea/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', '110-22'), ('WSL_INTEROP', '/run/WSL/138098_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/tukorea/ros2_ws/install/gtsam/lib/x86_64-linux-gnu/pkgconfig:/home/tukorea/ros2_ws/install/gtsam/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/tukorea/ros2_ws/install/lio_sam:/home/tukorea/ros2_ws/install/dss_lio_sam:/home/tukorea/ros2_ws/install/dss_ros2_bridge:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tukorea/ros2_ws/build/livox_lio_sam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/tukorea/ros2_ws/install/dss_lio_sam/local/lib/python3.10/dist-packages:/home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages:/home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tukorea/ros2_ws/install/lio_sam:/home/tukorea/ros2_ws/install/dss_lio_sam:/home/tukorea/ros2_ws/install/dss_ros2_bridge:/home/tukorea/ros2_ws/install/gtsam:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.034884] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_generator_c\x1b[0m\n'}
+[0.041488] (livox_lio_sam) StdoutLine: {'line': b'[  1%] Built target livox_lio_sam__cpp\n'}
+[0.041621] (livox_lio_sam) StdoutLine: {'line': b'[ 10%] Built target livox_lio_sam__rosidl_generator_c\n'}
+[0.046404] (livox_lio_sam) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_livox_lio_sam\n'}
+[0.047265] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.047350] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.047379] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.047461] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_c\x1b[0m\n'}
+[0.048013] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.048615] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.054547] (livox_lio_sam) StdoutLine: {'line': b'[ 20%] Built target livox_lio_sam__rosidl_typesupport_c\n'}
+[0.056203] (livox_lio_sam) StdoutLine: {'line': b'[ 29%] Built target livox_lio_sam__rosidl_typesupport_cpp\n'}
+[0.057454] (livox_lio_sam) StdoutLine: {'line': b'[ 47%] Built target livox_lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[0.057835] (livox_lio_sam) StdoutLine: {'line': b'[ 47%] Built target livox_lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[0.057908] (livox_lio_sam) StdoutLine: {'line': b'[ 56%] Built target livox_lio_sam__rosidl_typesupport_introspection_c\n'}
+[0.058608] (livox_lio_sam) StdoutLine: {'line': b'[ 65%] Built target livox_lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[0.062492] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam_featureExtraction\x1b[0m\n'}
+[0.062676] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam_imageProjection\x1b[0m\n'}
+[0.063199] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam_imuPreintegration\x1b[0m\n'}
+[0.064885] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam_mapOptimization\x1b[0m\n'}
+[0.072357] (livox_lio_sam) StdoutLine: {'line': b'[ 65%] Built target livox_lio_sam\n'}
+[0.082178] (livox_lio_sam) StdoutLine: {'line': b'[ 69%] Built target livox_lio_sam_featureExtraction\n'}
+[0.082424] (livox_lio_sam) StdoutLine: {'line': b'[ 72%] Built target livox_lio_sam_imageProjection\n'}
+[0.083364] (livox_lio_sam) StdoutLine: {'line': b'[ 76%] Built target livox_lio_sam_mapOptimization\n'}
+[0.083814] (livox_lio_sam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/livox_lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[0.084933] (livox_lio_sam) StdoutLine: {'line': b'[ 80%] Built target livox_lio_sam__py\n'}
+[0.091252] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_generator_py\x1b[0m\n'}
+[0.098765] (livox_lio_sam) StdoutLine: {'line': b'[ 87%] Built target livox_lio_sam__rosidl_generator_py\n'}
+[0.099841] (-) TimerEvent: {}
+[0.105161] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.105300] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.105335] (livox_lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.112565] (livox_lio_sam) StdoutLine: {'line': b'[ 96%] Built target livox_lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.112801] (livox_lio_sam) StdoutLine: {'line': b'[ 98%] Built target livox_lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[0.112879] (livox_lio_sam) StdoutLine: {'line': b'[ 96%] Built target livox_lio_sam__rosidl_typesupport_c__pyext\n'}
+[0.153842] (livox_lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[0.154147] (livox_lio_sam) StdoutLine: {'line': b'writing livox_lio_sam.egg-info/PKG-INFO\n'}
+[0.154284] (livox_lio_sam) StdoutLine: {'line': b'writing dependency_links to livox_lio_sam.egg-info/dependency_links.txt\n'}
+[0.154555] (livox_lio_sam) StdoutLine: {'line': b'writing top-level names to livox_lio_sam.egg-info/top_level.txt\n'}
+[0.155469] (livox_lio_sam) StdoutLine: {'line': b"reading manifest file 'livox_lio_sam.egg-info/SOURCES.txt'\n"}
+[0.155545] (livox_lio_sam) StdoutLine: {'line': b"writing manifest file 'livox_lio_sam.egg-info/SOURCES.txt'\n"}
+[0.169584] (livox_lio_sam) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_livox_lio_sam_egg\n'}
+[0.200139] (-) TimerEvent: {}
+[0.300439] (-) TimerEvent: {}
+[0.400823] (-) TimerEvent: {}
+[0.501284] (-) TimerEvent: {}
+[0.601640] (-) TimerEvent: {}
+[0.702012] (-) TimerEvent: {}
+[0.802390] (-) TimerEvent: {}
+[0.902760] (-) TimerEvent: {}
+[1.003174] (-) TimerEvent: {}
+[1.103612] (-) TimerEvent: {}
+[1.204043] (-) TimerEvent: {}
+[1.304420] (-) TimerEvent: {}
+[1.404788] (-) TimerEvent: {}
+[1.505212] (-) TimerEvent: {}
+[1.605582] (-) TimerEvent: {}
+[1.705962] (-) TimerEvent: {}
+[1.806565] (-) TimerEvent: {}
+[1.907039] (-) TimerEvent: {}
+[2.007398] (-) TimerEvent: {}
+[2.107795] (-) TimerEvent: {}
+[2.208300] (-) TimerEvent: {}
+[2.308687] (-) TimerEvent: {}
+[2.409113] (-) TimerEvent: {}
+[2.509504] (-) TimerEvent: {}
+[2.609916] (-) TimerEvent: {}
+[2.710338] (-) TimerEvent: {}
+[2.810762] (-) TimerEvent: {}
+[2.911203] (-) TimerEvent: {}
+[3.011690] (-) TimerEvent: {}
+[3.112190] (-) TimerEvent: {}
+[3.212723] (-) TimerEvent: {}
+[3.313157] (-) TimerEvent: {}
+[3.413732] (-) TimerEvent: {}
+[3.514214] (-) TimerEvent: {}
+[3.614703] (-) TimerEvent: {}
+[3.715233] (-) TimerEvent: {}
+[3.815666] (-) TimerEvent: {}
+[3.916077] (-) TimerEvent: {}
+[4.016537] (-) TimerEvent: {}
+[4.116985] (-) TimerEvent: {}
+[4.217404] (-) TimerEvent: {}
+[4.317775] (-) TimerEvent: {}
+[4.418158] (-) TimerEvent: {}
+[4.518575] (-) TimerEvent: {}
+[4.619079] (-) TimerEvent: {}
+[4.719567] (-) TimerEvent: {}
+[4.819952] (-) TimerEvent: {}
+[4.920498] (-) TimerEvent: {}
+[5.020893] (-) TimerEvent: {}
+[5.121356] (-) TimerEvent: {}
+[5.221775] (-) TimerEvent: {}
+[5.322432] (-) TimerEvent: {}
+[5.422874] (-) TimerEvent: {}
+[5.523291] (-) TimerEvent: {}
+[5.623711] (-) TimerEvent: {}
+[5.724084] (-) TimerEvent: {}
+[5.824528] (-) TimerEvent: {}
+[5.925026] (-) TimerEvent: {}
+[6.025593] (-) TimerEvent: {}
+[6.125959] (-) TimerEvent: {}
+[6.226356] (-) TimerEvent: {}
+[6.326903] (-) TimerEvent: {}
+[6.427297] (-) TimerEvent: {}
+[6.527680] (-) TimerEvent: {}
+[6.628082] (-) TimerEvent: {}
+[6.728815] (-) TimerEvent: {}
+[6.829192] (-) TimerEvent: {}
+[6.929650] (-) TimerEvent: {}
+[7.030077] (-) TimerEvent: {}
+[7.130479] (-) TimerEvent: {}
+[7.230944] (-) TimerEvent: {}
+[7.331338] (-) TimerEvent: {}
+[7.431817] (-) TimerEvent: {}
+[7.532334] (-) TimerEvent: {}
+[7.632863] (-) TimerEvent: {}
+[7.733268] (-) TimerEvent: {}
+[7.833716] (-) TimerEvent: {}
+[7.934154] (-) TimerEvent: {}
+[8.034640] (-) TimerEvent: {}
+[8.135079] (-) TimerEvent: {}
+[8.235568] (-) TimerEvent: {}
+[8.336082] (-) TimerEvent: {}
+[8.436497] (-) TimerEvent: {}
+[8.537091] (-) TimerEvent: {}
+[8.637471] (-) TimerEvent: {}
+[8.737843] (-) TimerEvent: {}
+[8.838330] (-) TimerEvent: {}
+[8.938831] (-) TimerEvent: {}
+[9.039254] (-) TimerEvent: {}
+[9.139608] (-) TimerEvent: {}
+[9.240160] (-) TimerEvent: {}
+[9.340609] (-) TimerEvent: {}
+[9.440996] (-) TimerEvent: {}
+[9.541456] (-) TimerEvent: {}
+[9.641874] (-) TimerEvent: {}
+[9.742349] (-) TimerEvent: {}
+[9.842790] (-) TimerEvent: {}
+[9.943667] (-) TimerEvent: {}
+[10.044059] (-) TimerEvent: {}
+[10.144524] (-) TimerEvent: {}
+[10.244978] (-) TimerEvent: {}
+[10.345448] (-) TimerEvent: {}
+[10.445836] (-) TimerEvent: {}
+[10.546197] (-) TimerEvent: {}
+[10.646589] (-) TimerEvent: {}
+[10.747003] (-) TimerEvent: {}
+[10.847539] (-) TimerEvent: {}
+[10.948035] (-) TimerEvent: {}
+[11.048514] (-) TimerEvent: {}
+[11.148948] (-) TimerEvent: {}
+[11.249320] (-) TimerEvent: {}
+[11.349670] (-) TimerEvent: {}
+[11.450467] (-) TimerEvent: {}
+[11.550889] (-) TimerEvent: {}
+[11.651337] (-) TimerEvent: {}
+[11.751753] (-) TimerEvent: {}
+[11.852201] (-) TimerEvent: {}
+[11.952606] (-) TimerEvent: {}
+[12.053010] (-) TimerEvent: {}
+[12.153371] (-) TimerEvent: {}
+[12.253803] (-) TimerEvent: {}
+[12.354190] (-) TimerEvent: {}
+[12.454559] (-) TimerEvent: {}
+[12.555089] (-) TimerEvent: {}
+[12.655494] (-) TimerEvent: {}
+[12.755950] (-) TimerEvent: {}
+[12.856328] (-) TimerEvent: {}
+[12.956823] (-) TimerEvent: {}
+[13.057226] (-) TimerEvent: {}
+[13.157778] (-) TimerEvent: {}
+[13.258220] (-) TimerEvent: {}
+[13.358656] (-) TimerEvent: {}
+[13.459181] (-) TimerEvent: {}
+[13.559672] (-) TimerEvent: {}
+[13.660187] (-) TimerEvent: {}
+[13.760589] (-) TimerEvent: {}
+[13.860981] (-) TimerEvent: {}
+[13.961434] (-) TimerEvent: {}
+[14.061834] (-) TimerEvent: {}
+[14.162239] (-) TimerEvent: {}
+[14.262599] (-) TimerEvent: {}
+[14.363081] (-) TimerEvent: {}
+[14.463459] (-) TimerEvent: {}
+[14.563946] (-) TimerEvent: {}
+[14.664352] (-) TimerEvent: {}
+[14.764765] (-) TimerEvent: {}
+[14.865259] (-) TimerEvent: {}
+[14.965811] (-) TimerEvent: {}
+[15.066283] (-) TimerEvent: {}
+[15.166738] (-) TimerEvent: {}
+[15.267277] (-) TimerEvent: {}
+[15.367695] (-) TimerEvent: {}
+[15.468117] (-) TimerEvent: {}
+[15.568592] (-) TimerEvent: {}
+[15.669082] (-) TimerEvent: {}
+[15.769472] (-) TimerEvent: {}
+[15.869872] (-) TimerEvent: {}
+[15.970292] (-) TimerEvent: {}
+[16.070777] (-) TimerEvent: {}
+[16.171230] (-) TimerEvent: {}
+[16.271721] (-) TimerEvent: {}
+[16.372108] (-) TimerEvent: {}
+[16.472574] (-) TimerEvent: {}
+[16.573136] (-) TimerEvent: {}
+[16.673581] (-) TimerEvent: {}
+[16.773962] (-) TimerEvent: {}
+[16.874317] (-) TimerEvent: {}
+[16.974762] (-) TimerEvent: {}
+[17.075182] (-) TimerEvent: {}
+[17.175563] (-) TimerEvent: {}
+[17.276105] (-) TimerEvent: {}
+[17.376499] (-) TimerEvent: {}
+[17.476877] (-) TimerEvent: {}
+[17.577266] (-) TimerEvent: {}
+[17.677691] (-) TimerEvent: {}
+[17.778111] (-) TimerEvent: {}
+[17.878501] (-) TimerEvent: {}
+[17.978949] (-) TimerEvent: {}
+[18.079317] (-) TimerEvent: {}
+[18.179769] (-) TimerEvent: {}
+[18.280131] (-) TimerEvent: {}
+[18.380555] (-) TimerEvent: {}
+[18.481005] (-) TimerEvent: {}
+[18.581469] (-) TimerEvent: {}
+[18.681962] (-) TimerEvent: {}
+[18.782352] (-) TimerEvent: {}
+[18.882720] (-) TimerEvent: {}
+[18.983058] (-) TimerEvent: {}
+[19.083408] (-) TimerEvent: {}
+[19.183872] (-) TimerEvent: {}
+[19.284222] (-) TimerEvent: {}
+[19.384602] (-) TimerEvent: {}
+[19.485058] (-) TimerEvent: {}
+[19.586102] (-) TimerEvent: {}
+[19.686490] (-) TimerEvent: {}
+[19.786871] (-) TimerEvent: {}
+[19.887235] (-) TimerEvent: {}
+[19.987586] (-) TimerEvent: {}
+[20.088143] (-) TimerEvent: {}
+[20.188602] (-) TimerEvent: {}
+[20.288997] (-) TimerEvent: {}
+[20.389383] (-) TimerEvent: {}
+[20.489782] (-) TimerEvent: {}
+[20.590152] (-) TimerEvent: {}
+[20.690580] (-) TimerEvent: {}
+[20.790983] (-) TimerEvent: {}
+[20.891433] (-) TimerEvent: {}
+[20.991923] (-) TimerEvent: {}
+[21.092313] (-) TimerEvent: {}
+[21.192771] (-) TimerEvent: {}
+[21.293153] (-) TimerEvent: {}
+[21.393527] (-) TimerEvent: {}
+[21.494013] (-) TimerEvent: {}
+[21.594471] (-) TimerEvent: {}
+[21.694885] (-) TimerEvent: {}
+[21.795240] (-) TimerEvent: {}
+[21.895605] (-) TimerEvent: {}
+[21.995963] (-) TimerEvent: {}
+[22.096327] (-) TimerEvent: {}
+[22.196746] (-) TimerEvent: {}
+[22.297231] (-) TimerEvent: {}
+[22.397654] (-) TimerEvent: {}
+[22.498097] (-) TimerEvent: {}
+[22.598567] (-) TimerEvent: {}
+[22.698935] (-) TimerEvent: {}
+[22.803264] (-) TimerEvent: {}
+[22.903780] (-) TimerEvent: {}
+[23.004333] (-) TimerEvent: {}
+[23.104747] (-) TimerEvent: {}
+[23.205130] (-) TimerEvent: {}
+[23.305558] (-) TimerEvent: {}
+[23.405931] (-) TimerEvent: {}
+[23.506395] (-) TimerEvent: {}
+[23.606903] (-) TimerEvent: {}
+[23.620359] (livox_lio_sam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable livox_lio_sam_imuPreintegration\x1b[0m\n'}
+[23.707180] (-) TimerEvent: {}
+[23.807605] (-) TimerEvent: {}
+[23.908029] (-) TimerEvent: {}
+[24.008598] (-) TimerEvent: {}
+[24.108977] (-) TimerEvent: {}
+[24.209357] (-) TimerEvent: {}
+[24.274984] (livox_lio_sam) StdoutLine: {'line': b'[100%] Built target livox_lio_sam_imuPreintegration\n'}
+[24.282277] (livox_lio_sam) CommandEnded: {'returncode': 0}
+[24.282924] (livox_lio_sam) JobProgress: {'identifier': 'livox_lio_sam', 'progress': 'install'}
+[24.287471] (livox_lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tukorea/ros2_ws/build/livox_lio_sam'], 'cwd': '/home/tukorea/ros2_ws/build/livox_lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tukorea/ros2_ws/install/lio_sam/lib:/home/tukorea/ros2_ws/install/dss_lio_sam/lib:/home/tukorea/ros2_ws/install/dss_ros2_bridge/lib:/home/tukorea/ros2_ws/install/gtsam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tukorea'), ('OLDPWD', '/home/tukorea/gtsam-4.1.1/build'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tukorea/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', '110-22'), ('WSL_INTEROP', '/run/WSL/138098_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/tukorea/ros2_ws/install/gtsam/lib/x86_64-linux-gnu/pkgconfig:/home/tukorea/ros2_ws/install/gtsam/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/tukorea/ros2_ws/install/lio_sam:/home/tukorea/ros2_ws/install/dss_lio_sam:/home/tukorea/ros2_ws/install/dss_ros2_bridge:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tukorea/ros2_ws/build/livox_lio_sam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/tukorea/ros2_ws/install/dss_lio_sam/local/lib/python3.10/dist-packages:/home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages:/home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tukorea/ros2_ws/install/lio_sam:/home/tukorea/ros2_ws/install/dss_lio_sam:/home/tukorea/ros2_ws/install/dss_ros2_bridge:/home/tukorea/ros2_ws/install/gtsam:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[24.291409] (livox_lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[24.291881] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/rosidl_interfaces/livox_lio_sam\n'}
+[24.291942] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam\n'}
+[24.292127] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv\n'}
+[24.292262] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/save_map.h\n'}
+[24.292299] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail\n'}
+[24.292385] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__functions.h\n'}
+[24.292524] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__functions.c\n'}
+[24.292646] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__functions.c\n'}
+[24.292745] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.h\n'}
+[24.292824] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.h\n'}
+[24.292854] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__struct.h\n'}
+[24.292876] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__struct.h\n'}
+[24.292897] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__functions.h\n'}
+[24.292917] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/reset.h\n'}
+[24.293008] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg\n'}
+[24.293041] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.293102] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail\n'}
+[24.293207] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__functions.h\n'}
+[24.293299] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[24.293330] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__functions.c\n'}
+[24.293351] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__struct.h\n'}
+[24.293372] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/cloud_info.h\n'}
+[24.293444] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/library_path.sh\n'}
+[24.293650] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/library_path.dsv\n'}
+[24.293688] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_c.so\n'}
+[24.293818] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_c.so" to ""\n'}
+[24.293873] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam\n'}
+[24.293943] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv\n'}
+[24.294119] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail\n'}
+[24.294155] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[24.294228] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_fastrtps_c.h\n'}
+[24.294288] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg\n'}
+[24.294356] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.294426] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail\n'}
+[24.294485] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[24.294610] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[24.294680] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.294756] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam\n'}
+[24.294827] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv\n'}
+[24.294885] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail\n'}
+[24.294930] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[24.294956] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.c\n'}
+[24.295082] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.c\n'}
+[24.295109] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_introspection_c.h\n'}
+[24.295176] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg\n'}
+[24.295201] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail\n'}
+[24.295222] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[24.295242] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.c\n'}
+[24.295261] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.295330] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_c.so\n'}
+[24.295401] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.295491] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_c.so\n'}
+[24.295516] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_c.so" to ""\n'}
+[24.295589] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam\n'}
+[24.295650] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv\n'}
+[24.295687] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail\n'}
+[24.295743] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__struct.hpp\n'}
+[24.295810] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.hpp\n'}
+[24.295877] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__struct.hpp\n'}
+[24.296020] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__builder.hpp\n'}
+[24.296281] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__traits.hpp\n'}
+[24.296383] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__traits.hpp\n'}
+[24.296413] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[24.296435] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__builder.hpp\n'}
+[24.296455] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/save_map.hpp\n'}
+[24.296474] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/reset.hpp\n'}
+[24.296493] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg\n'}
+[24.296529] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[24.296600] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail\n'}
+[24.296666] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[24.296724] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[24.296792] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[24.296861] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[24.296927] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/cloud_info.hpp\n'}
+[24.297015] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam\n'}
+[24.297065] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv\n'}
+[24.297133] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail\n'}
+[24.297191] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.297258] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.297325] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/dds_fastrtps\n'}
+[24.297383] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg\n'}
+[24.297450] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail\n'}
+[24.297517] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.297583] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/dds_fastrtps\n'}
+[24.297650] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.297717] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.297784] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.297925] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam\n'}
+[24.297956] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv\n'}
+[24.297977] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail\n'}
+[24.297997] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.cpp\n'}
+[24.298020] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.298039] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.298056] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.cpp\n'}
+[24.298073] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg\n'}
+[24.298091] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail\n'}
+[24.298108] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.cpp\n'}
+[24.298127] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.298144] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[24.298161] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.298177] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_cpp.so\n'}
+[24.298194] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_cpp.so" to ""\n'}
+[24.298210] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/pythonpath.sh\n'}
+[24.298227] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/pythonpath.dsv\n'}
+[24.298245] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info\n'}
+[24.298317] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.298348] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.298399] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.298512] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.298562] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam\n'}
+[24.298727] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/_livox_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.298776] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/_livox_lio_sam_s.ep.rosidl_typesupport_c.c\n'}
+[24.298802] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv\n'}
+[24.299035] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_reset_s.c\n'}
+[24.299131] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_save_map_s.c\n'}
+[24.299238] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_save_map.py\n'}
+[24.299271] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_reset.py\n'}
+[24.299349] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/__init__.py\n'}
+[24.299387] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.299465] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/_livox_lio_sam_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.299578] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.299744] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg\n'}
+[24.299832] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/_cloud_info.py\n'}
+[24.299916] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/__init__.py\n'}
+[24.299949] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/_cloud_info_s.c\n'}
+[24.300018] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.300051] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/__init__.py\n'}
+[24.300119] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/liblivox_lio_sam__rosidl_generator_py.so\n'}
+[24.309464] (-) TimerEvent: {}
+[24.321338] (livox_lio_sam) StdoutLine: {'line': b"Listing '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam'...\n"}
+[24.321448] (livox_lio_sam) StdoutLine: {'line': b"Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/__init__.py'...\n"}
+[24.321480] (livox_lio_sam) StdoutLine: {'line': b"Listing '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg'...\n"}
+[24.321505] (livox_lio_sam) StdoutLine: {'line': b"Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/__init__.py'...\n"}
+[24.321529] (livox_lio_sam) StdoutLine: {'line': b"Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/_cloud_info.py'...\n"}
+[24.321551] (livox_lio_sam) StdoutLine: {'line': b"Listing '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv'...\n"}
+[24.321571] (livox_lio_sam) StdoutLine: {'line': b"Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/__init__.py'...\n"}
+[24.321591] (livox_lio_sam) StdoutLine: {'line': b"Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_reset.py'...\n"}
+[24.321611] (livox_lio_sam) StdoutLine: {'line': b"Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_save_map.py'...\n"}
+[24.323647] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.323808] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.323878] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.323944] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.324019] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.324096] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.324140] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_py.so\n'}
+[24.324229] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_py.so" to ""\n'}
+[24.324330] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/msg/CloudInfo.idl\n'}
+[24.324450] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap.idl\n'}
+[24.324506] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset.idl\n'}
+[24.324600] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/msg/CloudInfo.msg\n'}
+[24.324630] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap.srv\n'}
+[24.324680] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap_Request.msg\n'}
+[24.324745] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap_Response.msg\n'}
+[24.324775] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset.srv\n'}
+[24.324848] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset_Request.msg\n'}
+[24.324878] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset_Response.msg\n'}
+[24.324958] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch\n'}
+[24.325011] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_slam.launch.py:Zone.Identifier\n'}
+[24.325259] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_slam.launch.py\n'}
+[24.325633] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run.launch.py\n'}
+[24.325839] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run.launch.py:Zone.Identifier\n'}
+[24.325906] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_localization.launch.py:Zone.Identifier\n'}
+[24.325968] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_localization.launch.py\n'}
+[24.326254] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config\n'}
+[24.326361] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_localization.yaml:Zone.Identifier:Zone.Identifier\n'}
+[24.326464] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params.yaml\n'}
+[24.326610] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_slam.yaml:Zone.Identifier\n'}
+[24.326702] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_localization.yaml\n'}
+[24.327003] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params.yaml:Zone.Identifier\n'}
+[24.327092] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_slam.yaml\n'}
+[24.327345] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/rviz2.rviz\n'}
+[24.327605] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/rviz2.rviz:Zone.Identifier\n'}
+[24.327711] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_localization.yaml:Zone.Identifier\n'}
+[24.327992] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc\n'}
+[24.328092] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-debug.gif\n'}
+[24.332790] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/demo.gif:Zone.Identifier\n'}
+[24.332912] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-boat.png\n'}
+[24.333555] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure.gif\n'}
+[24.345809] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/gps-demo.gif\n'}
+[24.352725] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand.png:Zone.Identifier\n'}
+[24.352825] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand-2.png\n'}
+[24.353638] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/system.png\n'}
+[24.354751] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure-2.gif:Zone.Identifier\n'}
+[24.354862] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure-2.gif\n'}
+[24.366476] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-demo.gif:Zone.Identifier\n'}
+[24.366574] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-map.png\n'}
+[24.367384] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-jackal.png:Zone.Identifier\n'}
+[24.367498] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/paper.pdf:Zone.Identifier\n'}
+[24.367557] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-transform.png:Zone.Identifier\n'}
+[24.367587] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/paper.pdf\n'}
+[24.370999] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-boat.png:Zone.Identifier\n'}
+[24.371119] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-demo.gif:Zone.Identifier\n'}
+[24.371157] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand.png\n'}
+[24.371710] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-map.png:Zone.Identifier\n'}
+[24.371834] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/system.png:Zone.Identifier\n'}
+[24.371878] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag\n'}
+[24.371986] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/kitti2bag.py:Zone.Identifier\n'}
+[24.372080] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[24.372364] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/README.md:Zone.Identifier\n'}
+[24.372456] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/README.md\n'}
+[24.372641] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand-2.png:Zone.Identifier\n'}
+[24.372736] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-demo.gif\n'}
+[24.382794] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-transform.png\n'}
+[24.384555] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/demo.gif\n'}
+[24.392091] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure.gif:Zone.Identifier\n'}
+[24.392216] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-jackal.png\n'}
+[24.392861] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-device.jpg\n'}
+[24.393842] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-device.jpg:Zone.Identifier\n'}
+[24.393965] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-debug.gif:Zone.Identifier\n'}
+[24.394016] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-demo.gif\n'}
+[24.402230] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/gps-demo.gif:Zone.Identifier\n'}
+[24.402467] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/robot.urdf.xacro\n'}
+[24.402993] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/robot.urdf.xacro:Zone.Identifier\n'}
+[24.404271] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imageProjection\n'}
+[24.405269] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imageProjection" to ""\n'}
+[24.405319] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imuPreintegration\n'}
+[24.405439] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imuPreintegration" to ""\n'}
+[24.405568] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_featureExtraction\n'}
+[24.407445] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_featureExtraction" to ""\n'}
+[24.407494] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_mapOptimization\n'}
+[24.408045] (livox_lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_mapOptimization" to ""\n'}
+[24.408188] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include\n'}
+[24.408233] (livox_lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam\n'}
+[24.408273] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/utility.hpp\n'}
+[24.408309] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/utility.hpp:Zone.Identifier\n'}
+[24.408439] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/package_run_dependencies/livox_lio_sam\n'}
+[24.408586] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/parent_prefix_path/livox_lio_sam\n'}
+[24.408723] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/ament_prefix_path.sh\n'}
+[24.408758] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/ament_prefix_path.dsv\n'}
+[24.408885] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/path.sh\n'}
+[24.408927] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/path.dsv\n'}
+[24.409050] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.bash\n'}
+[24.409092] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.sh\n'}
+[24.409122] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.zsh\n'}
+[24.409241] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.dsv\n'}
+[24.409285] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/package.dsv\n'}
+[24.409401] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/packages/livox_lio_sam\n'}
+[24.409534] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_cExport.cmake\n'}
+[24.409567] (-) TimerEvent: {}
+[24.410559] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[24.410608] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.410649] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[24.410680] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.410708] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[24.410737] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[24.410766] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[24.410790] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_cppExport.cmake\n'}
+[24.410824] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.410875] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[24.410903] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.410924] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[24.410943] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[24.410962] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[24.410990] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_pyExport.cmake\n'}
+[24.411142] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_pyExport-release.cmake\n'}
+[24.411174] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[24.411210] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.411232] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.411252] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.411271] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.411292] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.411322] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.411360] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_samConfig.cmake\n'}
+[24.411393] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_samConfig-version.cmake\n'}
+[24.411515] (livox_lio_sam) StdoutLine: {'line': b'-- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/package.xml\n'}
+[24.413237] (livox_lio_sam) CommandEnded: {'returncode': 0}
+[24.424972] (livox_lio_sam) JobEnded: {'identifier': 'livox_lio_sam', 'rc': 0}
+[24.425433] (-) EventReactorShutdown: {}

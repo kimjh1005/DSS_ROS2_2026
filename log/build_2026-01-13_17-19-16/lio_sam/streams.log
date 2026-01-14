@@ -1,0 +1,334 @@
+[0.120s] Invoking command in '/home/tukorea/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tukorea/ros2_ws/src/SLAM/LIO-SAM/lio_sam_ros2 -DCMAKE_INSTALL_PREFIX=/home/tukorea/ros2_ws/install/lio_sam
+[0.126s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.404s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.420s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.151s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.172s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[4.172s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.189s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.196s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.204s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.220s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.220s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.559s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.316s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.320s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.065s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.068s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.070s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.701s] -- Found Qhull version 8.0.2
+[9.535s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.301s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[10.302s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[10.304s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.305s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.341s] -- Found tf2_sensor_msgs: 0.25.18 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[10.344s] -- Found tf2_eigen: 0.25.18 (/opt/ros/humble/share/tf2_eigen/cmake)
+[10.348s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[10.348s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[10.348s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[10.348s]   command to set the policy and suppress this warning.
+[10.348s] 
+[10.348s]   CMake variable PCL_ROOT is set to:
+[10.348s] 
+[10.348s]     /usr
+[10.348s] 
+[10.348s]   For compatibility, CMake is ignoring the variable.
+[10.348s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.348s] [0m
+[10.360s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[10.363s] -- Found Eigen: /usr/include/eigen3  
+[10.363s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.515s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.832s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.844s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.844s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.844s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.895s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.899s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.901s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.902s] -- Configured cppcheck include dirs: /home/tukorea/ros2_ws/src/SLAM/LIO-SAM/lio_sam_ros2/include/lio_sam
+[10.902s] -- Configured cppcheck exclude dirs and/or files: 
+[10.904s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.904s] -- Configured cpplint exclude dirs and/or files: 
+[10.904s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.905s] -- Added test 'lint_cmake' to check CMake code style
+[10.905s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.907s] -- Added test 'uncrustify' to check C / C++ code style
+[10.907s] -- Configured uncrustify additional arguments: 
+[10.907s] -- Added test 'xmllint' to check XML markup files
+[10.908s] -- Configuring done
+[10.972s] -- Generating done
+[10.992s] -- Build files have been written to: /home/tukorea/ros2_ws/build/lio_sam
+[11.004s] Invoked command in '/home/tukorea/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tukorea/ros2_ws/src/SLAM/LIO-SAM/lio_sam_ros2 -DCMAKE_INSTALL_PREFIX=/home/tukorea/ros2_ws/install/lio_sam
+[11.005s] Invoking command in '/home/tukorea/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tukorea/ros2_ws/build/lio_sam -- -j20 -l20
+[11.030s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_c[0m
+[11.036s] [  2%] Built target lio_sam__cpp
+[11.036s] [ 10%] Built target lio_sam__rosidl_generator_c
+[11.042s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[11.042s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_cpp[0m
+[11.042s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_cpp[0m
+[11.042s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp[0m
+[11.048s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c[0m
+[11.048s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c[0m
+[11.049s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c[0m
+[11.051s] [ 19%] Built target lio_sam__rosidl_typesupport_cpp
+[11.052s] [ 27%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[11.052s] [ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[11.056s] [ 53%] Built target lio_sam__rosidl_typesupport_c
+[11.057s] [ 53%] Built target lio_sam__rosidl_typesupport_introspection_c
+[11.057s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[11.057s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[11.058s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_featureExtraction[0m
+[11.059s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[11.059s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization[0m
+[11.070s] [ 61%] Built target lio_sam
+[11.076s] [ 65%] Built target lio_sam_imageProjection
+[11.077s] [ 70%] Built target lio_sam_featureExtraction
+[11.080s] [ 74%] Built target lio_sam_mapOptimization
+[11.080s] [ 78%] Built target lio_sam_imuPreintegration
+[11.082s] [ 80%] Built target lio_sam__py
+[11.089s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_py[0m
+[11.098s] [ 87%] Built target lio_sam__rosidl_generator_py
+[11.105s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c__pyext[0m
+[11.105s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.105s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext[0m
+[11.112s] [ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[11.112s] [ 95%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[11.113s] [100%] Built target lio_sam__rosidl_typesupport_c__pyext
+[11.166s] running egg_info
+[11.166s] writing lio_sam.egg-info/PKG-INFO
+[11.166s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[11.166s] writing top-level names to lio_sam.egg-info/top_level.txt
+[11.167s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[11.168s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[11.185s] [100%] Built target ament_cmake_python_build_lio_sam_egg
+[11.193s] Invoked command in '/home/tukorea/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tukorea/ros2_ws/build/lio_sam -- -j20 -l20
+[11.194s] Invoking command in '/home/tukorea/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tukorea/ros2_ws/build/lio_sam
+[11.199s] -- Install configuration: "Release"
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.c
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[11.199s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.c
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/library_path.sh
+[11.200s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[11.200s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/dds_fastrtps
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/dds_fastrtps
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.cpp
+[11.201s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.cpp
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[11.202s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info
+[11.202s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt
+[11.202s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO
+[11.202s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt
+[11.202s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.202s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py
+[11.202s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[11.219s] Listing '/home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...
+[11.219s] Compiling '/home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py'...
+[11.219s] Listing '/home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...
+[11.219s] Listing '/home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//launch
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//launch/run_dss.launch.py
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//launch/run.launch.py
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//launch/run.launch.py:Zone.Identifier
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//launch/run_dss.launch.py:Zone.Identifier
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/params.yaml
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/params_dss.yaml:Zone.Identifier
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/params.yaml:Zone.Identifier
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/params_livox.yaml:Zone.Identifier
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[11.222s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/params_livox.yaml
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/rviz2.rviz:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/demo.gif:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand.png:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/system.png
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-jackal.png:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/paper.pdf:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-transform.png:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-boat.png:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-map.png:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/system.png:Zone.Identifier
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag
+[11.223s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/params_dss.yaml
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam//config/robot.urdf.xacro:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/utility.hpp
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/include/lio_sam/utility.hpp:Zone.Identifier
+[11.224s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[11.224s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[11.225s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/path.sh
+[11.225s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/environment/path.dsv
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/local_setup.bash
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/local_setup.sh
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/local_setup.zsh
+[11.225s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/local_setup.dsv
+[11.225s] -- Installing: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/package.dsv
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.225s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.226s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[11.226s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[11.226s] -- Up-to-date: /home/tukorea/ros2_ws/install/lio_sam/share/lio_sam/package.xml
+[11.227s] Invoked command in '/home/tukorea/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tukorea/ros2_ws/build/lio_sam

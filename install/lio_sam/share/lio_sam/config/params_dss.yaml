@@ -1,0 +1,91 @@
+/**:
+  ros__parameters:
+
+    # Topics - DSS Platform
+    pointCloudTopic: "/dss/sensor/lidar"          # DSS LiDAR topic
+    imuTopic: "/dss/sensor/imu"                   # DSS IMU topic
+    odomTopic: "odometry/imu"                     # IMU pre-integration odometry
+    gpsTopic: "odometry/gps"                      # GPS (not used)
+
+    # Frames
+    lidarFrame: "lidar"
+    baselinkFrame: "base_link"
+    odometryFrame: "odom"
+    mapFrame: "map"
+
+    # GPS Settings (disabled for DSS)
+    useImuHeadingInitialization: true
+    useGpsElevation: false
+    gpsCovThreshold: 2.0
+    poseCovThreshold: 25.0
+
+    # Export settings
+    savePCD: false
+    savePCDDirectory: "/home/amap/ros2_ws/maps/"
+
+    # Sensor Settings - DSS LiDAR (Velodyne format)
+    sensor: velodyne                              # Use velodyne format
+    N_SCAN: 16                                    # Number of scan lines
+    Horizon_SCAN: 1800                            # Horizontal resolution
+    downsampleRate: 1                             # Use all scans
+    lidarMinRange: 0.5                            # Minimum range
+    lidarMaxRange: 100.0                          # Maximum range
+
+    # IMU Settings - DSS Simulator IMU
+    # Use similar values to Livox for better IMU trust
+    imuAccNoise: 0.01
+    imuGyrNoise: 0.005
+    imuAccBiasN: 0.0001
+    imuGyrBiasN: 0.00005
+    imuGravity: 1.0
+    imuRPYWeight: 0.01
+
+    # Extrinsics: T_lb (lidar -> imu)
+    # DSS: LiDAR at z=1.5m above base_link, IMU at base_link
+    # T_lb means transform from LiDAR to IMU (body)
+    extrinsicTrans: [0.0, 0.0, 1.5]
+    extrinsicRot: [1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0]
+    extrinsicRPY: [1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0]
+
+    # LOAM feature threshold - use Livox default values
+    edgeThreshold: 1.0
+    surfThreshold: 0.1
+    edgeFeatureMinValidNum: 10
+    surfFeatureMinValidNum: 100
+
+    # voxel filter params - use Livox default values
+    odometrySurfLeafSize: 0.4
+    mappingCornerLeafSize: 0.2
+    mappingSurfLeafSize: 0.4
+
+    # robot motion constraint
+    z_tollerance: 1000.0
+    rotation_tollerance: 1000.0
+
+    # CPU Params
+    numberOfCores: 4
+    mappingProcessInterval: 0.15
+
+    # Surrounding map
+    surroundingkeyframeAddingDistThreshold: 1.0
+    surroundingkeyframeAddingAngleThreshold: 0.2
+    surroundingKeyframeDensity: 2.0
+    surroundingKeyframeSearchRadius: 50.0
+
+    # Loop closure
+    loopClosureEnableFlag: true
+    loopClosureFrequency: 1.0
+    surroundingKeyframeSize: 50
+    historyKeyframeSearchRadius: 15.0
+    historyKeyframeSearchTimeDiff: 30.0
+    historyKeyframeSearchNum: 25
+    historyKeyframeFitnessScore: 0.3
+
+    # Visualization
+    globalMapVisualizationSearchRadius: 1000.0
+    globalMapVisualizationPoseDensity: 10.0
+    globalMapVisualizationLeafSize: 1.0

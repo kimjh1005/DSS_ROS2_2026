@@ -1,1 +1,4 @@
-/home/tukorea/ros2_ws/build/dss_ros2_bridge/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dss_ros2_bridge/environment/ament_prefix_path.sh
+source;share/dss_ros2_bridge/environment/library_path.sh
+source;share/dss_ros2_bridge/environment/path.sh
+source;share/dss_ros2_bridge/environment/pythonpath.sh

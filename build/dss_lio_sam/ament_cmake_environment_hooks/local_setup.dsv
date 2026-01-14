@@ -1,0 +1,4 @@
+source;share/dss_lio_sam/environment/ament_prefix_path.sh
+source;share/dss_lio_sam/environment/library_path.sh
+source;share/dss_lio_sam/environment/path.sh
+source;share/dss_lio_sam/environment/pythonpath.sh

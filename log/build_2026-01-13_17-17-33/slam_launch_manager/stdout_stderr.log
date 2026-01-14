@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/slam_launch_manager/slam_launch_manager.egg-info
+writing ../../../build/slam_launch_manager/slam_launch_manager.egg-info/PKG-INFO
+writing dependency_links to ../../../build/slam_launch_manager/slam_launch_manager.egg-info/dependency_links.txt
+writing entry points to ../../../build/slam_launch_manager/slam_launch_manager.egg-info/entry_points.txt
+writing requirements to ../../../build/slam_launch_manager/slam_launch_manager.egg-info/requires.txt
+writing top-level names to ../../../build/slam_launch_manager/slam_launch_manager.egg-info/top_level.txt
+writing manifest file '../../../build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+reading manifest file '../../../build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+writing manifest file '../../../build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tukorea/ros2_ws/build/slam_launch_manager/build
+creating /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib
+creating /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager
+copying slam_launch_manager/slam_launch_manager_node.py -> /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager
+copying slam_launch_manager/__init__.py -> /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager
+creating /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+running install
+running install_lib
+creating /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+copying /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager/slam_launch_manager_node.py -> /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+creating /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/ui
+copying /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager/ui/slam_launch_manager.ui -> /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/ui
+copying /home/tukorea/ros2_ws/build/slam_launch_manager/build/lib/slam_launch_manager/__init__.py -> /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+byte-compiling /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/slam_launch_manager_node.py to slam_launch_manager_node.cpython-310.pyc
+byte-compiling /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tukorea/ros2_ws/install/slam_launch_manager/share/ament_index
+creating /home/tukorea/ros2_ws/install/slam_launch_manager/share/ament_index/resource_index
+creating /home/tukorea/ros2_ws/install/slam_launch_manager/share/ament_index/resource_index/packages
+copying resource/slam_launch_manager -> /home/tukorea/ros2_ws/install/slam_launch_manager/share/ament_index/resource_index/packages
+copying package.xml -> /home/tukorea/ros2_ws/install/slam_launch_manager/share/slam_launch_manager
+creating /home/tukorea/ros2_ws/install/slam_launch_manager/share/slam_launch_manager/ui
+copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/tukorea/ros2_ws/install/slam_launch_manager/share/slam_launch_manager/ui
+running install_egg_info
+Copying ../../../build/slam_launch_manager/slam_launch_manager.egg-info to /home/tukorea/ros2_ws/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager-0.0.0-py3.10.egg-info
+running install_scripts
+Installing slam_launch_manager script to /home/tukorea/ros2_ws/install/slam_launch_manager/lib/slam_launch_manager
+writing list of installed files to '/home/tukorea/ros2_ws/build/slam_launch_manager/install.log'

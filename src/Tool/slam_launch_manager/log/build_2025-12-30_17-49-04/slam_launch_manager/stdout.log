@@ -1,0 +1,25 @@
+running egg_info
+writing build/slam_launch_manager/slam_launch_manager.egg-info/PKG-INFO
+writing dependency_links to build/slam_launch_manager/slam_launch_manager.egg-info/dependency_links.txt
+writing entry points to build/slam_launch_manager/slam_launch_manager.egg-info/entry_points.txt
+writing requirements to build/slam_launch_manager/slam_launch_manager.egg-info/requires.txt
+writing top-level names to build/slam_launch_manager/slam_launch_manager.egg-info/top_level.txt
+reading manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+writing manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+running build
+running build_py
+copying slam_launch_manager/slam_launch_manager_node.py -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+running install
+running install_lib
+copying /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/ui
+copying /home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/slam_launch_manager_node.py -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+byte-compiling /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/slam_launch_manager_node.py to slam_launch_manager_node.cpython-310.pyc
+running install_data
+copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager/ui
+running install_egg_info
+removing '/home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/slam_launch_manager/slam_launch_manager.egg-info to /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager-0.0.0-py3.10.egg-info
+running install_scripts
+Installing slam_launch_manager script to /home/amap/ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/slam_launch_manager
+writing list of installed files to '/home/amap/ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log'

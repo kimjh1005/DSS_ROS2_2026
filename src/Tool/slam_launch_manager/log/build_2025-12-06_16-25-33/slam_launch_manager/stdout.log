@@ -1,0 +1,31 @@
+running egg_info
+creating build/slam_launch_manager/slam_launch_manager.egg-info
+writing manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+writing manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+copying slam_launch_manager/slam_launch_manager_node.py -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+copying slam_launch_manager/__init__.py -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+running install
+running install_lib
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/ui
+byte-compiling /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/slam_launch_manager_node.py to slam_launch_manager_node.cpython-310.pyc
+byte-compiling /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index/resource_index
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index/resource_index/packages
+copying resource/slam_launch_manager -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index/resource_index/packages
+copying package.xml -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager
+creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager/ui
+copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager/ui
+running install_egg_info
+Copying build/slam_launch_manager/slam_launch_manager.egg-info to /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log'

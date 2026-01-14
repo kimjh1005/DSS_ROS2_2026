@@ -1,0 +1,311 @@
+[0.007s] Invoking command in '/home/tukorea/ros2_ws/build/livox_lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble /usr/bin/cmake --build /home/tukorea/ros2_ws/build/livox_lio_sam -- -j20 -l20
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_generator_c[0m
+[0.040s] [  1%] Built target livox_lio_sam__cpp
+[0.040s] [ 10%] Built target livox_lio_sam__rosidl_generator_c
+[0.045s] [ 10%] Built target ament_cmake_python_copy_livox_lio_sam
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_cpp[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_fastrtps_c[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_introspection_c[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_c[0m
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_fastrtps_cpp[0m
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_introspection_cpp[0m
+[0.053s] [ 20%] Built target livox_lio_sam__rosidl_typesupport_c
+[0.055s] [ 29%] Built target livox_lio_sam__rosidl_typesupport_cpp
+[0.056s] [ 47%] Built target livox_lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.057s] [ 47%] Built target livox_lio_sam__rosidl_typesupport_fastrtps_c
+[0.057s] [ 56%] Built target livox_lio_sam__rosidl_typesupport_introspection_c
+[0.057s] [ 65%] Built target livox_lio_sam__rosidl_typesupport_introspection_cpp
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam_featureExtraction[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam_imageProjection[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam_imuPreintegration[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam_mapOptimization[0m
+[0.071s] [ 65%] Built target livox_lio_sam
+[0.081s] [ 69%] Built target livox_lio_sam_featureExtraction
+[0.081s] [ 72%] Built target livox_lio_sam_imageProjection
+[0.082s] [ 76%] Built target livox_lio_sam_mapOptimization
+[0.083s] [ 78%] [32mBuilding CXX object CMakeFiles/livox_lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[0.084s] [ 80%] Built target livox_lio_sam__py
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_generator_py[0m
+[0.098s] [ 87%] Built target livox_lio_sam__rosidl_generator_py
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_c__pyext[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target livox_lio_sam__rosidl_typesupport_introspection_c__pyext[0m
+[0.111s] [ 96%] Built target livox_lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.112s] [ 98%] Built target livox_lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.112s] [ 96%] Built target livox_lio_sam__rosidl_typesupport_c__pyext
+[0.153s] running egg_info
+[0.153s] writing livox_lio_sam.egg-info/PKG-INFO
+[0.153s] writing dependency_links to livox_lio_sam.egg-info/dependency_links.txt
+[0.153s] writing top-level names to livox_lio_sam.egg-info/top_level.txt
+[0.154s] reading manifest file 'livox_lio_sam.egg-info/SOURCES.txt'
+[0.154s] writing manifest file 'livox_lio_sam.egg-info/SOURCES.txt'
+[0.168s] [ 98%] Built target ament_cmake_python_build_livox_lio_sam_egg
+[23.619s] [100%] [32m[1mLinking CXX executable livox_lio_sam_imuPreintegration[0m
+[24.274s] [100%] Built target livox_lio_sam_imuPreintegration
+[24.281s] Invoked command in '/home/tukorea/ros2_ws/build/livox_lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble /usr/bin/cmake --build /home/tukorea/ros2_ws/build/livox_lio_sam -- -j20 -l20
+[24.287s] Invoking command in '/home/tukorea/ros2_ws/build/livox_lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble /usr/bin/cmake --install /home/tukorea/ros2_ws/build/livox_lio_sam
+[24.290s] -- Install configuration: "Release"
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/rosidl_interfaces/livox_lio_sam
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/save_map.h
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__functions.h
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__functions.c
+[24.291s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__functions.c
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__struct.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__struct.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__functions.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/reset.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_generator_c__visibility_control.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__functions.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__functions.c
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__struct.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/cloud_info.h
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/library_path.sh
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/library_path.dsv
+[24.292s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_c.so
+[24.293s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_c.so" to ""
+[24.293s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam
+[24.293s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv
+[24.293s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail
+[24.293s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[24.293s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_fastrtps_c.h
+[24.293s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg
+[24.293s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.293s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail
+[24.293s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[24.293s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_c.so
+[24.293s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.c
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.c
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_introspection_c.h
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.c
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_c.so
+[24.294s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_c.so" to ""
+[24.294s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_c.so
+[24.294s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_c.so" to ""
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv
+[24.294s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__struct.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__struct.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__builder.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__traits.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__traits.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__builder.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/save_map.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/reset.hpp
+[24.295s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.295s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__struct.hpp
+[24.295s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__builder.hpp
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__traits.hpp
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.hpp
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/cloud_info.hpp
+[24.296s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam
+[24.296s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv
+[24.296s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/dds_fastrtps
+[24.296s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg
+[24.296s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/dds_fastrtps
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.296s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_cpp.so
+[24.297s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.297s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam
+[24.297s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv
+[24.297s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__type_support.cpp
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/srv/detail/reset__type_support.cpp
+[24.297s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg
+[24.297s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__type_support.cpp
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/livox_lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_cpp.so
+[24.297s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_cpp.so
+[24.297s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_typesupport_cpp.so" to ""
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/pythonpath.sh
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/pythonpath.dsv
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/PKG-INFO
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam-1.0.0-py3.10.egg-info/top_level.txt
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam
+[24.297s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/_livox_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/_livox_lio_sam_s.ep.rosidl_typesupport_c.c
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_reset_s.c
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_save_map_s.c
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_save_map.py
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_reset.py
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/__init__.py
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/_livox_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.298s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg
+[24.299s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/_cloud_info.py
+[24.299s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/__init__.py
+[24.299s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/_cloud_info_s.c
+[24.299s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.299s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/__init__.py
+[24.299s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/liblivox_lio_sam__rosidl_generator_py.so
+[24.320s] Listing '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam'...
+[24.320s] Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/__init__.py'...
+[24.320s] Listing '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg'...
+[24.320s] Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/__init__.py'...
+[24.320s] Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/msg/_cloud_info.py'...
+[24.320s] Listing '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv'...
+[24.320s] Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/__init__.py'...
+[24.320s] Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_reset.py'...
+[24.320s] Compiling '/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/srv/_save_map.py'...
+[24.322s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.323s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.323s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.323s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/local/lib/python3.10/dist-packages/livox_lio_sam/livox_lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_py.so
+[24.323s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/liblivox_lio_sam__rosidl_generator_py.so" to ""
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/msg/CloudInfo.idl
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap.idl
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset.idl
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/msg/CloudInfo.msg
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap.srv
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap_Request.msg
+[24.323s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/SaveMap_Response.msg
+[24.324s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset.srv
+[24.324s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset_Request.msg
+[24.324s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/srv/Reset_Response.msg
+[24.324s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch
+[24.324s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_slam.launch.py:Zone.Identifier
+[24.324s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_slam.launch.py
+[24.324s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run.launch.py
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run.launch.py:Zone.Identifier
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_localization.launch.py:Zone.Identifier
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//launch/run_localization.launch.py
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_localization.yaml:Zone.Identifier:Zone.Identifier
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params.yaml
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_slam.yaml:Zone.Identifier
+[24.325s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_localization.yaml
+[24.326s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params.yaml:Zone.Identifier
+[24.326s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_slam.yaml
+[24.326s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/rviz2.rviz
+[24.326s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/rviz2.rviz:Zone.Identifier
+[24.326s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/params_localization.yaml:Zone.Identifier
+[24.327s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc
+[24.327s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-debug.gif
+[24.332s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/demo.gif:Zone.Identifier
+[24.332s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-boat.png
+[24.332s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure.gif
+[24.345s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/gps-demo.gif
+[24.351s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand.png:Zone.Identifier
+[24.352s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand-2.png
+[24.352s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/system.png
+[24.354s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure-2.gif:Zone.Identifier
+[24.354s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure-2.gif
+[24.365s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-demo.gif:Zone.Identifier
+[24.365s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-map.png
+[24.366s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-jackal.png:Zone.Identifier
+[24.366s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/paper.pdf:Zone.Identifier
+[24.366s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-transform.png:Zone.Identifier
+[24.366s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/paper.pdf
+[24.370s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-boat.png:Zone.Identifier
+[24.370s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-demo.gif:Zone.Identifier
+[24.370s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand.png
+[24.370s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-map.png:Zone.Identifier
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/system.png:Zone.Identifier
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/kitti2bag.py:Zone.Identifier
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/kitti2bag.py
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/README.md:Zone.Identifier
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti2bag/README.md
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-hand-2.png:Zone.Identifier
+[24.371s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/kitti-demo.gif
+[24.382s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-transform.png
+[24.383s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/demo.gif
+[24.391s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/loop-closure.gif:Zone.Identifier
+[24.391s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/device-jackal.png
+[24.392s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-device.jpg
+[24.393s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-device.jpg:Zone.Identifier
+[24.393s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/imu-debug.gif:Zone.Identifier
+[24.393s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/ouster-demo.gif
+[24.401s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/doc/gps-demo.gif:Zone.Identifier
+[24.401s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/robot.urdf.xacro
+[24.402s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam//config/robot.urdf.xacro:Zone.Identifier
+[24.403s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imageProjection
+[24.404s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imageProjection" to ""
+[24.404s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imuPreintegration
+[24.404s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_imuPreintegration" to ""
+[24.404s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_featureExtraction
+[24.406s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_featureExtraction" to ""
+[24.406s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_mapOptimization
+[24.407s] -- Set runtime path of "/home/tukorea/ros2_ws/install/livox_lio_sam/lib/livox_lio_sam/livox_lio_sam_mapOptimization" to ""
+[24.407s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include
+[24.407s] -- Up-to-date: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam
+[24.407s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/utility.hpp
+[24.407s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/include/livox_lio_sam/utility.hpp:Zone.Identifier
+[24.407s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/package_run_dependencies/livox_lio_sam
+[24.407s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/parent_prefix_path/livox_lio_sam
+[24.407s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/ament_prefix_path.sh
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/ament_prefix_path.dsv
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/path.sh
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/environment/path.dsv
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.bash
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.sh
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.zsh
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/local_setup.dsv
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/package.dsv
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/ament_index/resource_index/packages/livox_lio_sam
+[24.408s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_cExport.cmake
+[24.409s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_cExport-release.cmake
+[24.409s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[24.409s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[24.409s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[24.409s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[24.409s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cExport.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cExport-release.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_cppExport.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cppExport.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_sam__rosidl_typesupport_cppExport-release.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_pyExport.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/export_livox_lio_sam__rosidl_generator_pyExport-release.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/rosidl_cmake-extras.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_samConfig.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/cmake/livox_lio_samConfig-version.cmake
+[24.410s] -- Installing: /home/tukorea/ros2_ws/install/livox_lio_sam/share/livox_lio_sam/package.xml
+[24.412s] Invoked command in '/home/tukorea/ros2_ws/build/livox_lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tukorea/ros2_ws/install/slam_launch_manager:/home/tukorea/ros2_ws/install/bag_replay_tool_ros2:/opt/ros/humble /usr/bin/cmake --install /home/tukorea/ros2_ws/build/livox_lio_sam

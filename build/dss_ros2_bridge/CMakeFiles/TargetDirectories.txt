@@ -9,7 +9,7 @@
 /home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/dss_ros2_bridge__rosidl_typesupport_c.dir
 /home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/dss_ros2_bridge__rosidl_typesupport_introspection_cpp.dir
 /home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/dss_ros2_bridge__rosidl_typesupport_cpp.dir
-/home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/ament_cmake_python_symlink_dss_ros2_bridge.dir
+/home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/ament_cmake_python_copy_dss_ros2_bridge.dir
 /home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/ament_cmake_python_build_dss_ros2_bridge_egg.dir
 /home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/dss_ros2_bridge__rosidl_generator_py.dir
 /home/tukorea/ros2_ws/build/dss_ros2_bridge/CMakeFiles/dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext.dir

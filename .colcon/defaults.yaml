@@ -1,0 +1,7 @@
+build:
+  cmake-args:
+    - -DCMAKE_BUILD_TYPE=Release
+    - -DGTSAM_USE_SYSTEM_EIGEN=ON
+    - -DEigen3_DIR=/usr/share/eigen3/cmake
+    - -DGTSAM_BUILD_EXAMPLES=OFF
+    - -DGTSAM_BUILD_TESTS=OFF

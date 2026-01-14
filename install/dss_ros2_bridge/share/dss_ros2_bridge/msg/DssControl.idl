@@ -1,1 +1,16 @@
-/home/tukorea/ros2_ws/build/dss_ros2_bridge/rosidl_adapter/dss_ros2_bridge/msg/DssControl.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dss_ros2_bridge/msg/DssControl.msg
+// generated code does not contain a copyright notice
+
+
+module dss_ros2_bridge {
+  module msg {
+    struct DssControl {
+      float steer;
+
+      float throttle;
+
+      float brake;
+    };
+  };
+};

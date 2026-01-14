@@ -1,0 +1,33 @@
+[0.467s] Invoking command in '/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager': PYTHONPATH=/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/slam_launch_manager build --build-base /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build install --record /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log --single-version-externally-managed install_data
+[0.644s] running egg_info
+[0.644s] creating build/slam_launch_manager/slam_launch_manager.egg-info
+[0.645s] writing manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+[0.647s] writing manifest file 'build/slam_launch_manager/slam_launch_manager.egg-info/SOURCES.txt'
+[0.647s] running build
+[0.647s] running build_py
+[0.647s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build
+[0.647s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib
+[0.647s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+[0.647s] copying slam_launch_manager/slam_launch_manager_node.py -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+[0.647s] copying slam_launch_manager/__init__.py -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager
+[0.647s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+[0.647s] copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build/lib/slam_launch_manager/ui
+[0.647s] running install
+[0.647s] running install_lib
+[0.647s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager
+[0.648s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/ui
+[0.648s] byte-compiling /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/slam_launch_manager_node.py to slam_launch_manager_node.cpython-310.pyc
+[0.651s] byte-compiling /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager/__init__.py to __init__.cpython-310.pyc
+[0.651s] running install_data
+[0.651s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index
+[0.651s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index/resource_index
+[0.651s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index/resource_index/packages
+[0.651s] copying resource/slam_launch_manager -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/ament_index/resource_index/packages
+[0.651s] copying package.xml -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager
+[0.651s] creating /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager/ui
+[0.651s] copying slam_launch_manager/ui/slam_launch_manager.ui -> /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/share/slam_launch_manager/ui
+[0.651s] running install_egg_info
+[0.652s] Copying build/slam_launch_manager/slam_launch_manager.egg-info to /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages/slam_launch_manager-0.0.0-py3.10.egg-info
+[0.652s] running install_scripts
+[0.665s] writing list of installed files to '/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log'
+[0.680s] Invoked command in '/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager' returned '0': PYTHONPATH=/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/install/slam_launch_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/slam_launch_manager build --build-base /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/build install --record /home/amap/parking_robot_ros2_ws/src/Tools/slam_launch_manager/build/slam_launch_manager/install.log --single-version-externally-managed install_data

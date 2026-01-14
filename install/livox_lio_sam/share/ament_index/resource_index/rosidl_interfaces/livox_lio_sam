@@ -1,0 +1,10 @@
+msg/CloudInfo.idl
+msg/CloudInfo.msg
+srv/Reset.idl
+srv/Reset.srv
+srv/Reset_Request.msg
+srv/Reset_Response.msg
+srv/SaveMap.idl
+srv/SaveMap.srv
+srv/SaveMap_Request.msg
+srv/SaveMap_Response.msg

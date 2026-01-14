@@ -315,17 +315,17 @@ dss_ros2_bridge__rosidl_typesupport_cpp/fast:
 .PHONY : dss_ros2_bridge__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_dss_ros2_bridge
+# Target rules for targets named ament_cmake_python_copy_dss_ros2_bridge
 
 # Build rule for target.
-ament_cmake_python_symlink_dss_ros2_bridge: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_dss_ros2_bridge
-.PHONY : ament_cmake_python_symlink_dss_ros2_bridge
+ament_cmake_python_copy_dss_ros2_bridge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_dss_ros2_bridge
+.PHONY : ament_cmake_python_copy_dss_ros2_bridge
 
 # fast build rule for target.
-ament_cmake_python_symlink_dss_ros2_bridge/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dss_ros2_bridge.dir/build.make CMakeFiles/ament_cmake_python_symlink_dss_ros2_bridge.dir/build
-.PHONY : ament_cmake_python_symlink_dss_ros2_bridge/fast
+ament_cmake_python_copy_dss_ros2_bridge/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dss_ros2_bridge.dir/build.make CMakeFiles/ament_cmake_python_copy_dss_ros2_bridge.dir/build
+.PHONY : ament_cmake_python_copy_dss_ros2_bridge/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_dss_ros2_bridge_egg
@@ -1007,7 +1007,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_dss_ros2_bridge_egg"
-	@echo "... ament_cmake_python_symlink_dss_ros2_bridge"
+	@echo "... ament_cmake_python_copy_dss_ros2_bridge"
 	@echo "... dss_ros2_bridge"
 	@echo "... dss_ros2_bridge__cpp"
 	@echo "... dss_ros2_bridge__py"

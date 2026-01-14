@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5690135798e6172597f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "livox_lio_sam__py",
+					"jsonFile" : "directory-livox_lio_sam__py-Release-f0a44d85b246d7a74862.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tukorea/ros2_ws/build/livox_lio_sam/livox_lio_sam__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "livox_lio_sam",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_livox_lio_sam_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_livox_lio_sam_egg-Release-a0eac4299566e11efeec.json",
+					"name" : "ament_cmake_python_build_livox_lio_sam_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_livox_lio_sam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_livox_lio_sam-Release-6b14d134375b9ab78690.json",
+					"name" : "ament_cmake_python_copy_livox_lio_sam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam-Release-782543f0fcd9bf7f9415.json",
+					"name" : "livox_lio_sam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__cpp-Release-66112b620e6b3a87972a.json",
+					"name" : "livox_lio_sam__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "livox_lio_sam__py::@35d24a9cac0709d91902",
+					"jsonFile" : "target-livox_lio_sam__py-Release-d8e23b5feb6b94dd19a4.json",
+					"name" : "livox_lio_sam__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_generator_c-Release-d2aa67ed547d313fc2ce.json",
+					"name" : "livox_lio_sam__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_generator_py-Release-b71809307e2a46b3f56f.json",
+					"name" : "livox_lio_sam__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_c-Release-b7f491a0999b8ce8715d.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_c__pyext-Release-93eacd37fac9f366972c.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_cpp-Release-c22f18b176133c967fd1.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_fastrtps_c-Release-1fcf7918929a3e2ccc27.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_fastrtps_c__pyext-Release-9ee0ee1fd7b542f38a2b.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_fastrtps_cpp-Release-10ef803257365929e819.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_introspection_c-Release-085f52cd6860203238af.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_introspection_c__pyext-Release-3bfe12cc238e3098fd8f.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam__rosidl_typesupport_introspection_cpp-Release-0103cf50855ec4c58259.json",
+					"name" : "livox_lio_sam__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam_featureExtraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam_featureExtraction-Release-36b2b1600183a67a702b.json",
+					"name" : "livox_lio_sam_featureExtraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam_imageProjection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam_imageProjection-Release-76b6e95f972a68c9412e.json",
+					"name" : "livox_lio_sam_imageProjection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam_imuPreintegration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam_imuPreintegration-Release-66dc3efb57d2b2305b2f.json",
+					"name" : "livox_lio_sam_imuPreintegration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam_mapOptimization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam_mapOptimization-Release-ad8448d51ac4f018e864.json",
+					"name" : "livox_lio_sam_mapOptimization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "livox_lio_sam_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-livox_lio_sam_uninstall-Release-1f2fb28c5ab1ec075df1.json",
+					"name" : "livox_lio_sam_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-87cf411554749e9feb80.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tukorea/ros2_ws/build/livox_lio_sam",
+		"source" : "/home/tukorea/ros2_ws/src/SLAM/LIO-SAM/livox_lio_sam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
