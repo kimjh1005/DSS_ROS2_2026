@@ -1,6 +1,7 @@
 build/
 install/
 log/
+rosbag/
 *.pyc
 __pycache__/
 *.log
