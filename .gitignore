@@ -2,9 +2,11 @@ build/
 install/
 log/
 rosbag/
+dss_map/
 *.pyc
 __pycache__/
 *.log
+*.pcd
 .DS_Store
 .vscode/
 .idea/
